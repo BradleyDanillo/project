@@ -1,0 +1,481 @@
+00:00.000: ====================================================================
+00:00.094: Started: 2023/09/19 (Y/M/D) 21:22:55.441 (local)
+00:00.140: Time Format in this log: MM:ss.mmm (minutes:seconds.milliseconds)
+00:00.172: Command line: C:\Users\user\AppData\Local\Temp\IXP000.TMP\IE-REDIST.exe  /ieak-full:C:\Users\user\AppData\Local\Temp\IXP000.TMP\ 
+00:00.203: INFO:    Setup installer for Internet Explorer: 11.0.9600.16428
+00:00.578: INFO:    Previous version of Internet Explorer: 11.0.10240.16384
+00:00.609: INFO:    Checking if iexplore.exe's current version is between 11.0.9600.0...
+00:00.656: INFO:    ...and 11.1.0.0...
+00:00.687: INFO:    Maximum version on which to run IEAK branding is: 11.1.0.0...
+00:00.719: INFO:    This version of Internet Explorer is greater than Full IEAK install supports. Performing branding instead of full-install
+00:00.765: INFO:    iexplore.exe version check success. Install can proceed.
+00:00.797: INFO:    Operating System: Windows Workstation: 6.2.9200
+00:00.937: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKInitialize()
+00:00.984: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:21:22:56
+
+00:01.203: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - download directory set to C:\Users\user\AppData\Local\Temp\IXP000.TMP
+
+00:01.234: INFO:    IEAKPRXY>>IEAK_DLL: SetLocalCif :C:\Users\user\AppData\Local\Temp\IXP000.TMP\IESetup.CIF:
+
+00:01.281: INFO:    IEAKPRXY>>IEAK_DLL: IEAKInitialize : Successfully Inited
+00:01.312: INFO:    IEAKPRXY>>[END] Call to IEAKInitialize()
+00:01.344: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKSetConfiguration()
+00:01.375: INFO:    IEAKPRXY>>IEAK_DLL: IEAKSetConfiguration: Successfully Set Configured
+00:01.422: INFO:    IEAKPRXY>>[END] Call to IEAKSetConfiguration(), return value: TRUE
+00:01.734: INFO:    Preparing branded setup information. This installation of Internet Explorer includes customized settings and might contain additional programs from Microsoft.
+
+By clicking Install, you agree to the <A HREF="http://go.microsoft.com/fwlink/?LinkID=298889">Internet Explorer license terms.</A>
+00:01.765: WARNING: PauseAUThread: Failed to pause Automatic Updates: 0x80040154
+00:12.156: INFO:    Waiting for 0 prerequisite downloads.
+00:12.219: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKBeforeIEInstallation()
+00:12.250: INFO:    IEAKPRXY>>IEAK_DLL: IEAKBeforeIEInstallation: All Pre IE custom component installation goes here
+00:12.265: INFO:    IEAKPRXY>>IEAK_DLL: Queue components for the install engine [PreCustItems]:
+
+00:12.312: INFO:    IEAKPRXY>>IEAK_DLL: QueueComponents took :47: 
+
+00:12.344: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - Starting install phase
+
+00:12.375: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStartInstall:
+   Download: 0 KB
+   Install 0 KB
+
+00:12.406: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStopInstall:
+   HRESULT: 0 (OK)
+  Status: 0
+
+00:12.437: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:21:23:7
+
+00:12.469: INFO:    IEAKPRXY>>IEAK_DLL: InstallJob return hr:0x0: Status:0
+
+00:12.500: INFO:    IEAKPRXY>>[END] Call to IEAKBeforeIEInstallation(), return value: TRUE
+00:12.531: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKAfterIEInstallation(FALSE)
+00:12.562: INFO:    IEAKPRXY>>IEAK_DLL: IEAKAfterIEInstallation: All Post IE custom component installation goes here
+00:12.609: INFO:    IEAKPRXY>>IEAK_DLL: Queue components for the install engine [CustItems]:
+
+00:12.640: INFO:    IEAKPRXY>>IEAK_DLL: Queueing Component : EIEDPLauncher
+
+00:12.672: INFO:    IEAKPRXY>>IEAK_DLL: QueueComponents took :63: 
+
+00:12.703: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - Starting install phase
+
+00:12.734: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStartInstall:
+   Download: 0 KB
+   Install 4526 KB
+
+00:12.765: INFO:    IEAKPRXY>>IEAK_DLL:        Start : Date:9/19/2023 (M/D/Y) Time:21:23:8
+
+00:12.797: INFO:    IEAKPRXY>>IEAK_DLL: OnStartComponent:
+   ID: CUSTOM0
+   Download: 0 KB
+   Install 4526 KB
+
+00:12.890: INFO:    IEAKPRXY>>IEAK_DLL:        CheckTrust: C:\Windows\msdownld.tmp\AS0900BF.tmp\EIEDPLauncher.EXE, Result: 1 (OK)
+
+00:12.937: INFO:    IEAKPRXY>>IEAK_DLL: Launching exe: command: "C:\Windows\msdownld.tmp\AS0900BF.tmp\EIEDPLauncher.EXE" /C:"EIEDPLauncher.exe silent=true mkt=en-us ie=11"
+
+00:23.281: INFO:    IEAKPRXY>>IEAK_DLL: SpaceUsed: Windows drive: 0   InstallDrive: 0
+
+00:23.406: INFO:    IEAKPRXY>>IEAK_DLL: Timing rates: Download: 0,Install 442000
+
+00:23.437: INFO:    IEAKPRXY>>IEAK_DLL: OnStopComponent:
+   ID: CUSTOM0
+   HRESULT: 0 (OK)
+   Phase: 8
+   Status: 0
+
+00:23.469: INFO:    IEAKPRXY>>IEAK_DLL:        Stop  : Date:9/19/2023 (M/D/Y) Time:21:23:18
+
+00:23.500: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStopInstall:
+   HRESULT: 0 (OK)
+  Status: 0
+
+00:23.531: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:21:23:18
+
+00:23.562: INFO:    IEAKPRXY>>IEAK_DLL: InstallJob return hr:0x0: Status:0
+
+00:23.609: INFO:    IEAKPRXY>>[END] Call to IEAKAfterIEInstallation()
+00:23.640: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKFinalize(TRUE)
+00:23.672: INFO:    IEAKPRXY>>IEAK_DLL: IEAKFinalize: Enter
+00:23.703: INFO:    IEAKPRXY>>IEAK_DLL: Queue component for the install engine [BRANDING.CAB]:
+
+00:23.734: INFO:    IEAKPRXY>>IEAK_DLL: QueueOneComponent took :31: 
+
+00:23.765: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - Starting install phase
+
+00:23.797: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStartInstall:
+   Download: 0 KB
+   Install 1 KB
+
+00:23.844: INFO:    IEAKPRXY>>IEAK_DLL:        Start : Date:9/19/2023 (M/D/Y) Time:21:23:19
+
+00:23.875: INFO:    IEAKPRXY>>IEAK_DLL: OnStartComponent:
+   ID: BRANDING.CAB
+   Download: 0 KB
+   Install 1 KB
+
+00:23.906: INFO:    IEAKPRXY>>IEAK_DLL:        CheckTrust: C:\Windows\msdownld.tmp\AS092BE6.tmp\BRANDING.CAB, Result: 1 (OK)
+
+00:23.984: INFO:    IEAKPRXY>>IEAK_DLL: File extraction: C:\Windows\msdownld.tmp\AS092BE6.tmp\BRANDING.CAB, Result: 0 (OK)
+
+00:24.015: INFO:    IEAKPRXY>>IEAK_DLL: Launching Inf - inf: C:\Windows\msdownld.tmp\AS092BE6.tmp\INSTALL.INF, section: Default
+
+00:24.750: INFO:    IEAKPRXY>>IEAK_DLL: SpaceUsed: Windows drive: 0   InstallDrive: 0
+
+00:24.828: INFO:    IEAKPRXY>>IEAK_DLL: Timing rates: Download: 0,Install 442000
+
+00:24.875: INFO:    IEAKPRXY>>IEAK_DLL: OnStopComponent:
+   ID: BRANDING.CAB
+   HRESULT: 0 (OK)
+   Phase: 8
+   Status: 1
+
+00:24.906: INFO:    IEAKPRXY>>IEAK_DLL:        Stop  : Date:9/19/2023 (M/D/Y) Time:21:23:20
+
+00:24.937: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStopInstall:
+   HRESULT: 0 (OK)
+  Status: 1
+
+00:24.969: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:21:23:20
+
+00:25.000: INFO:    IEAKPRXY>>IEAK_DLL: InstallJob return hr:0x0: Status:1
+
+00:25.031: INFO:    IEAKPRXY>>IEAK_DLL: IEAK Finalized : Branding.cab has been installed
+00:25.109: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - object destroyed
+
+00:25.156: INFO:    IEAKPRXY>>[END] Call to IEAKFinalize(), return value: TRUE
+00:34.953: WARNING: PauseAUThread: Failed to resume Automatic Updates: 0x80040154
+00:34.984: ERROR:   Unable to schedule the cleanup of previous versions of Internet Explorer 11. Error: 3489661018
+00:35.015: INFO:    Setup exit code: 0x00000BC2 (3010) - Installation Succeeded. Reboot required.
+00:35.469: INFO:    Scheduling upload to IE SQM server: http://sqm.microsoft.com/sqm/ie/sqmserver.dll
+00:40.781: ERROR:   SQM Upload failed while uploading "C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\SQM\iesqmdata_setup0.sqm" with error: 2147500036
+00:40.812: INFO:    Cleaning up temporary files in: C:\Windows\TEMP\IE1CE26.tmp
+00:40.844: INFO:    Unable to remove directory C:\Windows\TEMP\IE1CE26.tmp, marking for deletion on reboot.
+00:40.875: INFO:    Rebooting computer...
+00:40.937: INFO:    Released Internet Explorer Installer Mutex
+00:00.000: ====================================================================
+00:00.141: Started: 2023/09/19 (Y/M/D) 21:29:05.841 (local)
+00:00.250: Time Format in this log: MM:ss.mmm (minutes:seconds.milliseconds)
+00:00.329: Command line: C:\Users\user\AppData\Local\Temp\IXP000.TMP\IE-REDIST.exe  /ieak-full:C:\Users\user\AppData\Local\Temp\IXP000.TMP\ 
+00:00.422: INFO:    Setup installer for Internet Explorer: 11.0.9600.16428
+00:01.032: INFO:    Previous version of Internet Explorer: 11.0.10240.16384
+00:01.079: INFO:    Checking if iexplore.exe's current version is between 11.0.9600.0...
+00:01.125: INFO:    ...and 11.1.0.0...
+00:01.172: INFO:    Maximum version on which to run IEAK branding is: 11.1.0.0...
+00:01.219: INFO:    This version of Internet Explorer is greater than Full IEAK install supports. Performing branding instead of full-install
+00:01.250: INFO:    iexplore.exe version check success. Install can proceed.
+00:01.297: INFO:    Operating System: Windows Workstation: 6.2.9200
+00:01.438: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKInitialize()
+00:01.485: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:21:29:7
+
+00:01.875: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - download directory set to C:\Users\user\AppData\Local\Temp\IXP000.TMP
+
+00:01.938: INFO:    IEAKPRXY>>IEAK_DLL: SetLocalCif :C:\Users\user\AppData\Local\Temp\IXP000.TMP\IESetup.CIF:
+
+00:02.000: INFO:    IEAKPRXY>>IEAK_DLL: IEAKInitialize : Successfully Inited
+00:02.032: INFO:    IEAKPRXY>>[END] Call to IEAKInitialize()
+00:02.079: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKSetConfiguration()
+00:02.141: INFO:    IEAKPRXY>>IEAK_DLL: IEAKSetConfiguration: Successfully Set Configured
+00:02.204: INFO:    IEAKPRXY>>[END] Call to IEAKSetConfiguration(), return value: TRUE
+00:02.610: INFO:    Preparing branded setup information. This installation of Internet Explorer includes customized settings and might contain additional programs from Microsoft.
+
+By clicking Install, you agree to the <A HREF="http://go.microsoft.com/fwlink/?LinkID=298889">Internet Explorer license terms.</A>
+00:02.672: WARNING: PauseAUThread: Failed to pause Automatic Updates: 0x80040154
+00:19.235: INFO:    Waiting for 0 prerequisite downloads.
+00:19.313: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKBeforeIEInstallation()
+00:19.360: INFO:    IEAKPRXY>>IEAK_DLL: IEAKBeforeIEInstallation: All Pre IE custom component installation goes here
+00:19.407: INFO:    IEAKPRXY>>IEAK_DLL: Queue components for the install engine [PreCustItems]:
+
+00:19.438: INFO:    IEAKPRXY>>IEAK_DLL: QueueComponents took :31: 
+
+00:19.485: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - Starting install phase
+
+00:19.532: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStartInstall:
+   Download: 0 KB
+   Install 0 KB
+
+00:19.579: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStopInstall:
+   HRESULT: 0 (OK)
+  Status: 0
+
+00:19.641: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:21:29:25
+
+00:19.688: INFO:    IEAKPRXY>>IEAK_DLL: InstallJob return hr:0x0: Status:0
+
+00:19.735: INFO:    IEAKPRXY>>[END] Call to IEAKBeforeIEInstallation(), return value: TRUE
+00:19.829: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKAfterIEInstallation(FALSE)
+00:19.875: INFO:    IEAKPRXY>>IEAK_DLL: IEAKAfterIEInstallation: All Post IE custom component installation goes here
+00:19.907: INFO:    IEAKPRXY>>IEAK_DLL: Queue components for the install engine [CustItems]:
+
+00:19.954: INFO:    IEAKPRXY>>IEAK_DLL: Queueing Component : EIEDPLauncher
+
+00:20.000: INFO:    IEAKPRXY>>IEAK_DLL: QueueComponents took :93: 
+
+00:20.032: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - Starting install phase
+
+00:20.079: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStartInstall:
+   Download: 0 KB
+   Install 4526 KB
+
+00:20.110: INFO:    IEAKPRXY>>IEAK_DLL:        Start : Date:9/19/2023 (M/D/Y) Time:21:29:25
+
+00:20.141: INFO:    IEAKPRXY>>IEAK_DLL: OnStartComponent:
+   ID: CUSTOM0
+   Download: 0 KB
+   Install 4526 KB
+
+00:20.235: INFO:    IEAKPRXY>>IEAK_DLL:        CheckTrust: C:\Windows\msdownld.tmp\AS045C45.tmp\EIEDPLauncher.EXE, Result: 1 (OK)
+
+00:20.329: INFO:    IEAKPRXY>>IEAK_DLL: Launching exe: command: "C:\Windows\msdownld.tmp\AS045C45.tmp\EIEDPLauncher.EXE" /C:"EIEDPLauncher.exe silent=true mkt=en-us ie=11"
+
+00:33.969: INFO:    IEAKPRXY>>IEAK_DLL: SpaceUsed: Windows drive: 0   InstallDrive: 0
+
+00:34.063: INFO:    IEAKPRXY>>IEAK_DLL: Timing rates: Download: 0,Install 336000
+
+00:34.094: INFO:    IEAKPRXY>>IEAK_DLL: OnStopComponent:
+   ID: CUSTOM0
+   HRESULT: 0 (OK)
+   Phase: 8
+   Status: 0
+
+00:34.157: INFO:    IEAKPRXY>>IEAK_DLL:        Stop  : Date:9/19/2023 (M/D/Y) Time:21:29:39
+
+00:34.188: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStopInstall:
+   HRESULT: 0 (OK)
+  Status: 0
+
+00:34.235: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:21:29:40
+
+00:34.282: INFO:    IEAKPRXY>>IEAK_DLL: InstallJob return hr:0x0: Status:0
+
+00:34.329: INFO:    IEAKPRXY>>[END] Call to IEAKAfterIEInstallation()
+00:34.360: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKFinalize(TRUE)
+00:34.391: INFO:    IEAKPRXY>>IEAK_DLL: IEAKFinalize: Enter
+00:34.422: INFO:    IEAKPRXY>>IEAK_DLL: Queue component for the install engine [BRANDING.CAB]:
+
+00:34.500: INFO:    IEAKPRXY>>IEAK_DLL: QueueOneComponent took :78: 
+
+00:34.532: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - Starting install phase
+
+00:34.563: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStartInstall:
+   Download: 0 KB
+   Install 1 KB
+
+00:34.594: INFO:    IEAKPRXY>>IEAK_DLL:        Start : Date:9/19/2023 (M/D/Y) Time:21:29:40
+
+00:34.625: INFO:    IEAKPRXY>>IEAK_DLL: OnStartComponent:
+   ID: BRANDING.CAB
+   Download: 0 KB
+   Install 1 KB
+
+00:34.657: INFO:    IEAKPRXY>>IEAK_DLL:        CheckTrust: C:\Windows\msdownld.tmp\AS0494AB.tmp\BRANDING.CAB, Result: 1 (OK)
+
+00:34.719: INFO:    IEAKPRXY>>IEAK_DLL: File extraction: C:\Windows\msdownld.tmp\AS0494AB.tmp\BRANDING.CAB, Result: 0 (OK)
+
+00:34.766: INFO:    IEAKPRXY>>IEAK_DLL: Launching Inf - inf: C:\Windows\msdownld.tmp\AS0494AB.tmp\INSTALL.INF, section: Default
+
+00:35.766: INFO:    IEAKPRXY>>IEAK_DLL: SpaceUsed: Windows drive: 0   InstallDrive: 0
+
+00:35.844: INFO:    IEAKPRXY>>IEAK_DLL: Timing rates: Download: 0,Install 336000
+
+00:35.891: INFO:    IEAKPRXY>>IEAK_DLL: OnStopComponent:
+   ID: BRANDING.CAB
+   HRESULT: 0 (OK)
+   Phase: 8
+   Status: 1
+
+00:35.938: INFO:    IEAKPRXY>>IEAK_DLL:        Stop  : Date:9/19/2023 (M/D/Y) Time:21:29:41
+
+00:35.985: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStopInstall:
+   HRESULT: 0 (OK)
+  Status: 1
+
+00:36.063: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:21:29:41
+
+00:36.110: INFO:    IEAKPRXY>>IEAK_DLL: InstallJob return hr:0x0: Status:1
+
+00:36.157: INFO:    IEAKPRXY>>IEAK_DLL: IEAK Finalized : Branding.cab has been installed
+00:36.204: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - object destroyed
+
+00:36.250: INFO:    IEAKPRXY>>[END] Call to IEAKFinalize(), return value: TRUE
+01:17.282: WARNING: PauseAUThread: Failed to resume Automatic Updates: 0x80040154
+01:17.329: ERROR:   Unable to schedule the cleanup of previous versions of Internet Explorer 11. Error: 3489661018
+01:17.360: INFO:    Setup exit code: 0x00000BC2 (3010) - Installation Succeeded. Reboot required.
+01:17.860: INFO:    Scheduling upload to IE SQM server: http://sqm.microsoft.com/sqm/ie/sqmserver.dll
+01:23.219: ERROR:   SQM Upload failed while uploading "C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\SQM\iesqmdata_setup0.sqm" with error: 2147500036
+01:23.266: ERROR:   SQM Upload failed while uploading "C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\SQM\iesqmdata_setup1.sqm" with error: 2147500036
+01:23.375: INFO:    Cleaning up temporary files in: C:\Windows\TEMP\IE1D2B.tmp
+01:23.438: INFO:    Unable to remove directory C:\Windows\TEMP\IE1D2B.tmp, marking for deletion on reboot.
+01:23.516: INFO:    Released Internet Explorer Installer Mutex
+00:00.000: ====================================================================
+00:00.046: Started: 2023/09/19 (Y/M/D) 13:33:31.423 (local)
+00:00.078: Time Format in this log: MM:ss.mmm (minutes:seconds.milliseconds)
+00:00.109: Command line: C:\Users\user\AppData\Local\Temp\IXP000.TMP\IE-REDIST.exe  /ieak-full:C:\Users\user\AppData\Local\Temp\IXP000.TMP\ 
+00:00.140: INFO:    Setup installer for Internet Explorer: 11.0.9600.16428
+00:00.187: INFO:    Previous version of Internet Explorer: 11.0.10240.16384
+00:00.218: INFO:    Checking if iexplore.exe's current version is between 11.0.9600.0...
+00:00.250: INFO:    ...and 11.1.0.0...
+00:00.281: INFO:    Maximum version on which to run IEAK branding is: 11.1.0.0...
+00:00.312: INFO:    This version of Internet Explorer is greater than Full IEAK install supports. Performing branding instead of full-install
+00:00.343: INFO:    iexplore.exe version check success. Install can proceed.
+00:00.375: INFO:    Operating System: Windows Workstation: 6.2.9200
+00:00.468: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKInitialize()
+00:00.546: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:13:33:31
+
+00:00.578: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - download directory set to C:\Users\user\AppData\Local\Temp\IXP000.TMP
+
+00:00.609: INFO:    IEAKPRXY>>IEAK_DLL: SetLocalCif :C:\Users\user\AppData\Local\Temp\IXP000.TMP\IESetup.CIF:
+
+00:00.640: INFO:    IEAKPRXY>>IEAK_DLL: IEAKInitialize : Successfully Inited
+00:00.671: INFO:    IEAKPRXY>>[END] Call to IEAKInitialize()
+00:00.703: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKSetConfiguration()
+00:00.718: INFO:    IEAKPRXY>>IEAK_DLL: IEAKSetConfiguration: Successfully Set Configured
+00:00.750: INFO:    IEAKPRXY>>[END] Call to IEAKSetConfiguration(), return value: TRUE
+00:01.093: INFO:    Preparing branded setup information. This installation of Internet Explorer includes customized settings and might contain additional programs from Microsoft.
+
+By clicking Install, you agree to the <A HREF="http://go.microsoft.com/fwlink/?LinkID=298889">Internet Explorer license terms.</A>
+00:01.140: WARNING: PauseAUThread: Failed to pause Automatic Updates: 0x80040154
+00:26.312: INFO:    Waiting for 0 prerequisite downloads.
+00:26.359: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKBeforeIEInstallation()
+00:26.390: INFO:    IEAKPRXY>>IEAK_DLL: IEAKBeforeIEInstallation: All Pre IE custom component installation goes here
+00:26.421: INFO:    IEAKPRXY>>IEAK_DLL: Queue components for the install engine [PreCustItems]:
+
+00:26.468: INFO:    IEAKPRXY>>IEAK_DLL: QueueComponents took :47: 
+
+00:26.500: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - Starting install phase
+
+00:26.531: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStartInstall:
+   Download: 0 KB
+   Install 0 KB
+
+00:26.562: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStopInstall:
+   HRESULT: 0 (OK)
+  Status: 0
+
+00:26.593: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:13:33:58
+
+00:26.625: INFO:    IEAKPRXY>>IEAK_DLL: InstallJob return hr:0x0: Status:0
+
+00:26.656: INFO:    IEAKPRXY>>[END] Call to IEAKBeforeIEInstallation(), return value: TRUE
+00:26.687: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKAfterIEInstallation(FALSE)
+00:26.718: INFO:    IEAKPRXY>>IEAK_DLL: IEAKAfterIEInstallation: All Post IE custom component installation goes here
+00:26.765: INFO:    IEAKPRXY>>IEAK_DLL: Queue components for the install engine [CustItems]:
+
+00:26.796: INFO:    IEAKPRXY>>IEAK_DLL: Queueing Component : EIEDPLauncher
+
+00:26.828: INFO:    IEAKPRXY>>IEAK_DLL: QueueComponents took :63: 
+
+00:26.859: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - Starting install phase
+
+00:26.890: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStartInstall:
+   Download: 0 KB
+   Install 4526 KB
+
+00:26.921: INFO:    IEAKPRXY>>IEAK_DLL:        Start : Date:9/19/2023 (M/D/Y) Time:13:33:58
+
+00:26.953: INFO:    IEAKPRXY>>IEAK_DLL: OnStartComponent:
+   ID: CUSTOM0
+   Download: 0 KB
+   Install 4526 KB
+
+00:27.015: INFO:    IEAKPRXY>>IEAK_DLL:        CheckTrust: C:\Windows\msdownld.tmp\AS0844B3.tmp\EIEDPLauncher.EXE, Result: 1 (OK)
+
+00:27.046: INFO:    IEAKPRXY>>IEAK_DLL: Launching exe: command: "C:\Windows\msdownld.tmp\AS0844B3.tmp\EIEDPLauncher.EXE" /C:"EIEDPLauncher.exe silent=true mkt=en-us ie=11"
+
+00:29.468: INFO:    IEAKPRXY>>IEAK_DLL: SpaceUsed: Windows drive: 0   InstallDrive: 0
+
+00:29.500: INFO:    IEAKPRXY>>IEAK_DLL: Timing rates: Download: 0,Install 1877000
+
+00:29.531: INFO:    IEAKPRXY>>IEAK_DLL: OnStopComponent:
+   ID: CUSTOM0
+   HRESULT: 0 (OK)
+   Phase: 8
+   Status: 0
+
+00:29.562: INFO:    IEAKPRXY>>IEAK_DLL:        Stop  : Date:9/19/2023 (M/D/Y) Time:13:34:0
+
+00:29.593: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStopInstall:
+   HRESULT: 0 (OK)
+  Status: 0
+
+00:29.625: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:13:34:1
+
+00:29.671: INFO:    IEAKPRXY>>IEAK_DLL: InstallJob return hr:0x0: Status:0
+
+00:29.703: INFO:    IEAKPRXY>>[END] Call to IEAKAfterIEInstallation()
+00:29.734: INFO:    IEAKPRXY>>[BEGIN] Call to IEAKFinalize(TRUE)
+00:29.765: INFO:    IEAKPRXY>>IEAK_DLL: IEAKFinalize: Enter
+00:29.796: INFO:    IEAKPRXY>>IEAK_DLL: Queue component for the install engine [BRANDING.CAB]:
+
+00:29.843: INFO:    IEAKPRXY>>IEAK_DLL: QueueOneComponent took :47: 
+
+00:29.875: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - Starting install phase
+
+00:29.906: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStartInstall:
+   Download: 0 KB
+   Install 1 KB
+
+00:29.984: INFO:    IEAKPRXY>>IEAK_DLL:        Start : Date:9/19/2023 (M/D/Y) Time:13:34:1
+
+00:30.015: INFO:    IEAKPRXY>>IEAK_DLL: OnStartComponent:
+   ID: BRANDING.CAB
+   Download: 0 KB
+   Install 1 KB
+
+00:30.062: INFO:    IEAKPRXY>>IEAK_DLL:        CheckTrust: C:\Windows\msdownld.tmp\AS085099.tmp\BRANDING.CAB, Result: 1 (OK)
+
+00:30.093: INFO:    IEAKPRXY>>IEAK_DLL: File extraction: C:\Windows\msdownld.tmp\AS085099.tmp\BRANDING.CAB, Result: 0 (OK)
+
+00:30.125: INFO:    IEAKPRXY>>IEAK_DLL: Launching Inf - inf: C:\Windows\msdownld.tmp\AS085099.tmp\INSTALL.INF, section: Default
+
+00:30.375: INFO:    IEAKPRXY>>IEAK_DLL: SpaceUsed: Windows drive: 0   InstallDrive: 0
+
+00:30.421: INFO:    IEAKPRXY>>IEAK_DLL: Timing rates: Download: 0,Install 1877000
+
+00:30.453: INFO:    IEAKPRXY>>IEAK_DLL: OnStopComponent:
+   ID: BRANDING.CAB
+   HRESULT: 0 (OK)
+   Phase: 8
+   Status: 1
+
+00:30.484: INFO:    IEAKPRXY>>IEAK_DLL:        Stop  : Date:9/19/2023 (M/D/Y) Time:13:34:1
+
+00:30.515: INFO:    IEAKPRXY>>IEAK_DLL: 
+OnStopInstall:
+   HRESULT: 0 (OK)
+  Status: 1
+
+00:30.546: INFO:    IEAKPRXY>>IEAK_DLL: Date:9/19/2023 (M/D/Y) Time:13:34:1
+
+00:30.578: INFO:    IEAKPRXY>>IEAK_DLL: InstallJob return hr:0x0: Status:1
+
+00:30.609: INFO:    IEAKPRXY>>IEAK_DLL: IEAK Finalized : Branding.cab has been installed
+00:30.640: INFO:    IEAKPRXY>>IEAK_DLL: Install Engine - object destroyed
+
+00:30.687: INFO:    IEAKPRXY>>[END] Call to IEAKFinalize(), return value: TRUE
+00:53.437: WARNING: PauseAUThread: Failed to resume Automatic Updates: 0x80040154
+00:53.703: ERROR:   Unable to schedule the cleanup of previous versions of Internet Explorer 11. Error: 3489661018
+00:53.734: INFO:    Setup exit code: 0x00000BC2 (3010) - Installation Succeeded. Reboot required.
+00:53.796: INFO:    Scheduling upload to IE SQM server: http://sqm.microsoft.com/sqm/ie/sqmserver.dll
+00:58.843: ERROR:   SQM Upload failed while uploading "C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\SQM\iesqmdata_setup0.sqm" with error: 2147500036
+00:58.906: ERROR:   SQM Upload failed while uploading "C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\SQM\iesqmdata_setup1.sqm" with error: 2147500036
+00:58.937: ERROR:   SQM Upload failed while uploading "C:\Users\user\AppData\Local\Microsoft\Windows\INetCache\SQM\iesqmdata_setup2.sqm" with error: 2147500036
+00:58.984: INFO:    Cleaning up temporary files in: C:\Windows\TEMP\IE1DB0C.tmp
+00:59.015: INFO:    Unable to remove directory C:\Windows\TEMP\IE1DB0C.tmp, marking for deletion on reboot.
+00:59.046: INFO:    Released Internet Explorer Installer Mutex
